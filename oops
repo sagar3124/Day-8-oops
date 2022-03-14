@@ -22,12 +22,12 @@ class movie{
    console.log(data.map(b=>b.title))
  }
 }
- let Movie1=new movie("Love Mocktail 2","KRG Studios")
+ let Movie1=new movie("KGF","KRG Studios")
  Movie1.display()
-let Movie2=new movie("KGF","hombale films","PG")
-let Movie3=new movie("Badava Rascal","anaDM studiopurna","PG")
-let Movie4=new movie("Madagaja","xxxxKanteerva Studio","PG")
-let film=new movie("Yuvarathnaae","Hombale Films","PG13")
+let Movie2=new movie("KGF","KRG Studios","PG")
+let Movie3=new movie("RRR","Hues Studios","PG")
+let Movie4=new movie("LUCIFER","Zee Studios International","PG")
+let film=new movie("THEEVANDI","Malayalam Studios","PG13")
 film.display()
 let arr=[]
  arr.push(Movie1.movieobject())
@@ -37,11 +37,15 @@ let arr=[]
  console.log(arr)
 
 #OUT-PUT
-# [
-# { title: 'Love Mocktail 2', studio: 'KRG Studios', rating: 'PG' },    
-#  { title: 'KGF', studio: 'hombale films', rating: 'PG' },
-# { title: 'Badava Rascal', studio: 'anaDM studiopurna', rating: 'PG' },
-#  { title: 'Madagaja', studio: 'xxxxKanteerva Studio', rating: 'PG' }   
+#[
+  #{ title: 'KGF', studio: 'KRG Studios', rating: 'PG' },
+  #{ title: 'KGF', studio: 'KRG Studios', rating: 'PG' },
+  #{ title: 'RRR', studio: 'Hues Studios', rating: 'PG' },
+  #{
+   #title: 'LUCIFER',
+   #studio: 'Zee Studios International',
+   #rating: 'PG'
+  #}
 #]
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
